@@ -3,6 +3,8 @@
 A portfolio website written in nuxtjs with typescript and tailwindcss.
 I started this project to get familiar writing code in nuxtjs.
 
+# template nuxtjs readme below
+
 ## Build Setup
 
 ```bash
