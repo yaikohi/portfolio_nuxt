@@ -1,4 +1,7 @@
-# freewall
+# portfolio_nuxt
+
+A portfolio website written in nuxtjs with typescript and tailwindcss.
+I started this project to get familiar writing code in nuxtjs.
 
 ## Build Setup
 
@@ -40,7 +43,6 @@ More information about the usage of this directory in [the documentation](https:
 Layouts are a great help when you want to change the look and feel of your Nuxt app, whether you want to include a sidebar or have distinct layouts for mobile and desktop.
 
 More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/layouts).
-
 
 ### `pages`
 
