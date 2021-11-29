@@ -1,7 +1,7 @@
 <template>
     <div class="flex flex-row-reverse container pb-16">
-        <Navlink />
-        <Navlink to="/contact" page-name="Contact" />
+        <Navlink to="/contact">Contact</Navlink>
+        <Navlink>Home</Navlink>
     </div>
 </template>
 <script>

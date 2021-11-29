@@ -1,6 +1,8 @@
 <template>
     <div>
-        <nuxt-link :class="styles" :to="to">{{ pageName }}</nuxt-link>
+        <nuxt-link class="p-2 text-xl transition duration-400 hover:text-red-500" :to="to">
+            <slot />
+        </nuxt-link>
     </div>
 </template>
 <script>
@@ -11,19 +13,11 @@ export default {
             type: String,
             default: '/',
         },
-        pageName: {
-            type: String,
-            default: 'Home',
-        },
-        styles: {
-            type: String,
-            default: 'text-xl p-2'
-        }
     }
 }
 </script>
 <style>
 .nuxt-link-exact-active {
-    color: rgb(145, 145, 255);
+    color: rgb(231, 13, 13);
 }
 </style>
