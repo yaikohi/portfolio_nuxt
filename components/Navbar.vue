@@ -1,5 +1,5 @@
 <template>
-    <div class="flex flex-row container">
+    <div class="flex flex-row-reverse container pb-16">
         <Navlink />
         <Navlink to="/contact" page-name="Contact" />
     </div>
