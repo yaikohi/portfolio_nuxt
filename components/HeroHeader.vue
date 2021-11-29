@@ -11,7 +11,7 @@ export default {
         },
         content: {
             type: String,
-            default: "junior developer, \n student"
+            default: "text"
         }
     }
 }

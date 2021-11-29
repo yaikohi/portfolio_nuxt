@@ -1,7 +1,5 @@
 <template>
-    <div>
-        <input type="submit" :value="value" class="bg-blue-200 p-2 rounded-md" />
-    </div>
+    <input type="submit" :value="value" class="bg-blue-200 p-2 rounded-md" />
 </template>
 
 <script lang="ts">
