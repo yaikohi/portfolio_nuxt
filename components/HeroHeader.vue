@@ -1,5 +1,7 @@
 <template>
-    <h1 :class="styles">{{ content }}</h1>
+    <h1 :class="styles">
+        <slot />
+    </h1>
 </template>
 <script lang="ts">
 export default {
@@ -7,12 +9,8 @@ export default {
     props: {
         styles: {
             type: String,
-            default: "font-hero text-black bg-white text-left uppercase text-6xl p-4 m-4"
+            default: "font-hero text-black bg-white text-left uppercase text-6xl"
         },
-        content: {
-            type: String,
-            default: "text"
-        }
     }
 }
 </script>
