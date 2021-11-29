@@ -1,9 +1,14 @@
 <template>
-    <div class="flex flex-col container align-center w-60">
+    <div class="flex flex-col container align-center max-w-md mx-auto">
         <label class="py-2 w-max" :for="variant">
             <slot />
         </label>
-        <input :id="variant" class="py-2 rounded-md" type="text" :name="variant" />
+        <input
+            :id="variant"
+            class="py-2 rounded-md bg-gray-200 transition duration-400 focus:bg-white hover:bg-white"
+            type="text"
+            :name="variant"
+        />
     </div>
 </template> 
 
@@ -16,13 +21,6 @@ export default {
             default: "name",
             validator(type: string) { return ['email', 'name'].includes(type) }
         },
-        // values: {
-        //     type: String,
-        //     default: "John Doe",
-        //     validator(type: string) {
-        //         return ['john.doe@company.com', 'john doe'].includes(type)
-        //     }
-        // }
     }
 }
 </script>
