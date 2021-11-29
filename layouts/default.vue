@@ -1,5 +1,5 @@
 <template>
-    <div id="#app" class="my-20 mx-14 p-8">
+    <div id="#app" class="max-w-7xl my-auto mx-auto p-8">
         <navbar />
         <Nuxt />
     </div>
