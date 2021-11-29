@@ -9,7 +9,7 @@ export default {
     props: {
         styles: {
             type: String,
-            default: "font-hero text-black bg-white text-left uppercase text-6xl"
+            default: "font-hero text-red-500 bg-white text-left uppercase text-6xl"
         },
     }
 }
